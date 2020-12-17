@@ -586,7 +586,6 @@ img {
   border: none;
   cursor: pointer;
 
-  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -619,12 +618,11 @@ img {
   justify-content: start;
 }
 
-.form-input::placeholder {
+.form-subscribe-input::placeholder {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
 
-  font-family: var(--primary-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.25;
