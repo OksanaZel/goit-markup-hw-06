@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-HW6-HTML-CSS
+# goit-markup-hw-01
+HW1 GoIt HTML+CSS
