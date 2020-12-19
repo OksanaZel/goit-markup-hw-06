@@ -385,7 +385,7 @@
                             <label class="form-subscribe-label">
                                 <input type="email" name="email" class="form-subscribe-input" placeholder="E-mail">
                             </label>
-                            <button type="submit" class="subscribe-button">Подписаться
+                            <button type="submit" class="modal-btn">Подписаться
                                 <svg class="footer-subscribe-icon">
                                     <use href="./img/sprite.svg#send"></use>
                                 </svg>
@@ -431,9 +431,12 @@
                 <label class="modal-label">Комментарий
                     <textarea class="modal-comment" name="user-comment" placeholder="Введите текст"></textarea>
                 </label>
-                <input class="modal-policy-input visually-hidden" name="modal-policy" type="checkbox" id="policy" value="modal-policy">
-                <label class="modal-policy-label" for="policy">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
-                <button class="modal-form-button" type="submit">Отправить</button>
+                <label class="modal-policy-label">                
+                    <input class="modal-policy-input visually-hidden" name="modal-policy" type="checkbox" value="modal-policy">
+                        <span class="policy-icon"></span>
+                    Соглашаюсь с рассылкой и принимаю&nbsp<a href="#">Условия договора</a>
+                </label>
+                <button class="modal-btn" type="submit">Отправить</button>
             </form>
         </div>
     </div>
